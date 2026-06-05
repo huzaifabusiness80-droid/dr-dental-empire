@@ -35,7 +35,7 @@ const Footer = () => {
     const footerContacts = [
         {
             'title': 'Phone Number',
-            'info': '+088 123 654 987',
+            'info': '+92 335 4392211',
             'icon': call
         },
         {
@@ -45,7 +45,7 @@ const Footer = () => {
         },
         {
             'title': 'Clinic Address',
-            'info': '35 West Dental Street California 1004',
+            'info': 'Gulshan-e-Iqbal, Karachi, Pakistan',
             'icon': location
         }
     ]
@@ -53,12 +53,12 @@ const Footer = () => {
     return (
         <footer className='pt-100 pb-70'>
             <div className="container">
-                <div className="row">
+                <div className="row" style={{alignItems: 'center'}}>
                     <div className="col-lg-6 col-md-5">
-                        <div className="footer-logo">
-                            <img src={logo} alt="logo" />
+                        <div className="footer-logo" style={{display: 'flex', alignItems: 'center', marginBottom: '20px'}}>
+                            <span style={{fontWeight: '800', fontSize: '20px', color: '#1f3a93', letterSpacing: '1px'}}>DENTAL EMPIRE</span>
                         </div>
-                        <p>Dental Care Seattle is a top-rated local practice for cosmetic, preventative, and restorative dentistry on First Hill</p>
+                        <p>DR ATTIYA'S DENTAL EMPIRE is a top-rated local practice for cosmetic, preventative, and restorative dentistry</p>
 
                         <div className="social-logo">
                             <p>Follow us on</p>

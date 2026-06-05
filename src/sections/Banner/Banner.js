@@ -20,8 +20,9 @@ const Banner = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="banner-text" data-aos="fade-up" data-aos-duration="2000">
-                                    <h1>Entrust your smile to professionals</h1>
-                                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                                    <p style={{fontSize: '14px', fontWeight: '600', color: '#006eff', marginBottom: '10px'}}>DR ATTIYA'S DENTAL EMPIRE</p>
+                                    <h1>Your Smile, Our Priority</h1>
+                                    <p>Experience world-class dental care with Dr. Attiya and her expert team. We provide comprehensive dental solutions with state-of-the-art technology and personalized treatment plans.</p>
 
                                     <div className="banner-bottom">
                                         <div className="theme-btn">
@@ -34,7 +35,7 @@ const Banner = () => {
                                             </div>
                                             <div className='call-text'>
                                                 <p>Dental 24H Emergency</p>
-                                                <h6>03 482 394 123</h6>
+                                                <h6>+92 335 4392211</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -51,8 +52,8 @@ const Banner = () => {
                                             <img src={doctorImg} alt="doctor" />
                                         </div>
                                         <div className='info-text'>
-                                            <p>Dr. Samantha Alice</p>
-                                            <p><small>Consultant</small></p>
+                                            <p>Dr. Attiya</p>
+                                            <p><small>Lead Dentist</small></p>
                                         </div>
                                     </div>  
 

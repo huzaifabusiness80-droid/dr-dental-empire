@@ -6,7 +6,8 @@ import ContactForm from '../../components/ContactForm/ContactForm';
 
 const Appointment = () => {
 
-    const mapLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.72810807265!2d-0.24168024584704212!3d51.52877184047419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sbd!4v1666254073802!5m2!1sen!2sbd'
+    const mapLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.3028481675633!2d67.0011149!3d24.8615387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e90400c0001%3A0x4c6b63b6b8b3b!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1234567890'
+    const phoneNumber = '+92 335 4392211'
 
     return (
         <section className='appointment-section pb-70' data-aos="fade-up" data-aos-duration="2000">
@@ -18,7 +19,7 @@ const Appointment = () => {
 
                             <div className="location-name">
                                 <AiFillHome />
-                                <p>35 West Dental Street California 1004</p>
+                                <p>Gulshan-e-Iqbal, Karachi, Pakistan</p>
                             </div>
                         </div>
                     </div>
